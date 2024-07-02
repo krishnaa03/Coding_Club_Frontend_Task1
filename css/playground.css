@@ -1,0 +1,13 @@
+.images{
+    width: 500px;
+    height: 300px;
+    border-radius: 1em;
+}
+
+.item p{
+    line-height: .1px;
+}
+
+header{
+    margin-left: 100px;
+}

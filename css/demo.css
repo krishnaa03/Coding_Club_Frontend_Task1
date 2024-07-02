@@ -1,0 +1,11 @@
+.demobox p{
+    line-height: .1px;
+}
+
+.imagedemo{
+    width: 300px;
+    height: 200px;
+    border-radius: 1em;
+    margin-right: 40px;
+    margin-top: 500px;
+}

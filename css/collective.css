@@ -1,0 +1,16 @@
+.heading{
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.ctext{
+    margin-left: 500px;
+    color: black;
+    font-weight: 400px;
+    font-size: 20px;
+}
+

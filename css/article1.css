@@ -1,0 +1,17 @@
+body{
+    margin-left: 100px;
+}
+
+h2{
+    line-height: 5px;
+}
+
+.a1image{
+    width: 800px;
+    height: 500px;
+}
+
+.text1{
+    color: black;
+    margin-top: 5em;
+}

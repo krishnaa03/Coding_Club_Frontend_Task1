@@ -1,0 +1,272 @@
+* {
+    margin=0;
+    padding=0;
+    border=0;
+    outline=0;
+    text-decoration: none;
+    list-style: border-box;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: var(--color-white);
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
+    font-weight: 500;
+    color: var(--color-bg1);
+    background: var(--color-bg);
+    align-items: center;
+    justify-content: left;
+    display: flex;
+
+}
+
+:root {
+    --color-primary: 口#6c63f;
+    --color-success: #00bf8e;
+    --color-warning: #f7c94b;
+    --color-danger: #fff;
+    --color-danger-variant: rgba (247, 88, 66, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.7);
+    --color-black: #000;
+    --color-bg: #e9eaee;
+    --color-bg1: #2e3267;
+    --color-bg2: #0c1796;
+    --container-width-1g: 88%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+    --transition: all 400ms ease;
+}
+
+.container{
+    width: var(--container-width-1g);
+    margin: 0 auto;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+    margin-bottom: .5;
+}
+
+a{
+    color: var(--color-black);
+}
+
+
+
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.btn{
+    display: inline-block;
+    background: var(--color-black);
+    color: var(--color-black);
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: transparent;
+    color: var(--color-bg1);
+    border-color:var(--color-black);
+}
+
+.btn-primary{
+    background: var(--color-danger);
+    color: var(--color-black);
+}
+
+nav{
+    background:transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.nav__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button{
+    display: none;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav__menu a{
+    font-size: 0.97rem;
+    transition: all 800ms ease;
+}
+
+.nav__menu a:hover{
+    color: rgb(40, 47, 243);
+}
+
+header{
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 150vh;
+    margin-bottom: 5rem;
+}
+
+.header__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    
+}
+
+.cover{
+    width: 380px;
+    height: 220px;
+    background: var(--color-white);
+    margin-top: 50px;
+    border-radius: 10px;
+    border-style:double;
+    border-color: #000;
+    line-height: .5;
+}
+
+.box{
+    width: 800px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.cover2{
+    width: 380px;
+    height: 500px;
+    background: var(--color-white);
+    margin-top: 50px;
+    border-radius: 10px;
+    border-style:double;
+    border-color: #000;
+    line-height: .5;
+    margin: 50;
+}
+
+.box2{
+    width: 800px;
+    height: 400px;
+    margin-left: 50px;
+    
+
+}
+
+.tight_lines{
+    line-height: 0;
+}
+
+.spaced_paragraph{
+    margin-top: 2.5em;
+}
+
+.subscribe-container {
+    background-color: #ffffff;    /* Background color of the container */
+    padding: 15px;                /* Padding inside the container */
+    border-radius: 8px;           /* Rounded corners */
+    text-align: left;           /* Center align the text */
+}
+
+.email-input {
+    padding: 10px;                /* Padding inside the input field */
+    width: 100px;                 /* Width of the input field */
+    margin-right: 10px;           /* Space between input field and button */
+    border: 1px solid #ccc;       /* Border of the input field */
+    border-radius: 4px;           /* Rounded corners for input field */
+    font-size: 16px;              /* Font size */
+}
+
+.subscribe-button {
+    padding: 10px 5px;           /* Padding inside the button */
+    background-color: #007bff;    /* Background color of the button */
+    color: #ffffff;               /* Text color */
+    border: none;                 /* Remove default border */
+    border-radius: 4px;           /* Rounded corners for button */
+    cursor: pointer;              /* Pointer cursor on hover */
+    font-size: 16px;              /* Font size */
+    
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3;    /* Darker background on hover */
+}
+
+.image{
+    width: 105px;
+    height: 105px;
+    border-radius: 10px;
+    
+}
+
+.text{
+    margin-left: px;
+    
+
+}
+
+.text p{
+    line-height: 0.1px;
+}
+
+.image__container{
+    margin-left: 70px;
+    margin-top: 400px;
+}
+
+
+
+
+
+
+
+
+
